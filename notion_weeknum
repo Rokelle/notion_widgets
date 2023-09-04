@@ -1,0 +1,13 @@
+<form>
+  <div class="nativeWeekPicker">
+    <label for="week">What week would you like to start?</label>
+    <input
+      id="week"
+      type="week"
+      name="week"
+      min="2022-W01"
+      max="2025-W52"
+      required />
+    <span class="validity"></span>
+  </div>
+</form>
